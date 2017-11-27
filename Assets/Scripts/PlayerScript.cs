@@ -14,12 +14,12 @@ public class PlayerScript : MonoBehaviour {
     public float sideWallJumpForce;
     public float fallMulitplier;
     public float lowJumpMulitplier;
+    public float maxVelocity;
+    public Vector2 currentVelocity;
     public bool grounded;
 
     //Components
     private Rigidbody2D rb;
-
-
 
 	void Start ()
     {
@@ -33,6 +33,16 @@ public class PlayerScript : MonoBehaviour {
 
     void Movement()
     {
+        currentVelocity = rb.velocity;
+        if (currentVelocity.x < -10)
+        {
+            currentVelocity.x = -10;
+        }
+        else if (currentVelocity.x > 10)
+        {
+            currentVelocity.x = 10;
+        }
+
         //Sideways Movement
         if (Input.GetKey(KeyCode.A))
         {
@@ -47,7 +57,6 @@ public class PlayerScript : MonoBehaviour {
         if (Input.GetKey(KeyCode.W) && grounded)
         {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y + jumpForce);
-            //rb.AddForce(Vector2.up * jumpForce);
             grounded = false;
         }
         if (rb.velocity.y < 0)
