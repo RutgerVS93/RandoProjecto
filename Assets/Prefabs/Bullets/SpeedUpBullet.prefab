@@ -149,7 +149,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.2}
+  m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
 --- !u!82 &82567685008231702
 AudioSource:
@@ -298,8 +298,6 @@ MonoBehaviour:
   _speedUp: 1
   increaseSize: 0
   _increaseSize: 0
-  knockBack: 0
-  _knockBack: 0
 --- !u!198 &198067313878370016
 ParticleSystem:
   m_ObjectHideFlags: 1

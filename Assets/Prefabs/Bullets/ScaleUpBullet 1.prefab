@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 50955354980257674}
   - component: {fileID: 61162690278797842}
   m_Layer: 0
-  m_Name: ScaleUpBullet
+  m_Name: ScaleUpBullet 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -180,7 +180,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9584999, y: 0.9585}
+  m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
 --- !u!82 &82376060061148326
 AudioSource:
@@ -329,8 +329,6 @@ MonoBehaviour:
   _speedUp: 0
   increaseSize: 1
   _increaseSize: 0.02
-  knockBack: 0
-  _knockBack: 0
 --- !u!198 &198145957714125592
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -546,7 +544,7 @@ ParticleSystem:
         m_RotationOrder: 0
     startSizeY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -587,7 +585,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startSizeZ:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 1
       minScalar: 1
       maxCurve:
@@ -628,7 +626,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationX:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -669,7 +667,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationY:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:

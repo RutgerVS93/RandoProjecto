@@ -149,7 +149,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.5, y: 0.5}
+  m_Size: {x: 0.2, y: 0.2}
   m_EdgeRadius: 0
 --- !u!114 &114257380486793698
 MonoBehaviour:
@@ -168,8 +168,6 @@ MonoBehaviour:
   _speedUp: 0
   increaseSize: 0
   _increaseSize: 0
-  knockBack: 0
-  _knockBack: 0
 --- !u!198 &198054232185389594
 ParticleSystem:
   m_ObjectHideFlags: 1

@@ -67,6 +67,20 @@ public class PlayerScript : MonoBehaviour {
         {
             rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMulitplier - 1) * Time.deltaTime;
         }
+
+        //MousePos for sprite facing
+        Vector2 mousePos = Input.mousePosition;
+        mousePos = Camera.main.ScreenToWorldPoint(mousePos);
+        float mousePosX = mousePos.x - transform.position.x;
+
+        if (mousePosX >= transform.position.x)
+        {
+            transform.localScale = new Vector3(.03f, .03f, 1);
+        }
+        else
+        {
+            transform.localScale = new Vector3(-.03f, .03f, 1);
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
