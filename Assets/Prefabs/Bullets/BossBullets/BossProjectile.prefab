@@ -40,6 +40,8 @@ GameObject:
   - component: {fileID: 199182019473266344}
   - component: {fileID: 82712229104804162}
   - component: {fileID: 50614276715722544}
+  - component: {fileID: 114869171442279924}
+  - component: {fileID: 58950090621790250}
   m_Layer: 0
   m_Name: BossProjectile
   m_TagString: Untagged
@@ -180,12 +182,27 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!58 &58950090621790250
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1199802499458452}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
 --- !u!82 &82712229104804162
 AudioSource:
   m_ObjectHideFlags: 1
@@ -316,6 +333,23 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!114 &114869171442279924
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1199802499458452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33cfceab77441fe4ca2d8cf65b0bb435, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseSpeed: 10
+  impact: {fileID: 0}
+  speedUp: 0
+  _speedUp: 0
+  increaseSize: 0
+  _increaseSize: 0
 --- !u!198 &198242427500275146
 ParticleSystem:
   m_ObjectHideFlags: 1

@@ -152,7 +152,10 @@ MonoBehaviour:
   impact: {fileID: 0}
   spawnArea: {x: 0, y: 7}
   spawnWidth: 10
-  numberOfProjectiles: 50
+  numberOfProjectiles: 36
+  fallingObjectsAttack: 1
+  circleAttack: 1
+  backAndForthAttack: 1
 --- !u!1 &266985802
 GameObject:
   m_ObjectHideFlags: 0
