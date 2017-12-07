@@ -6,7 +6,6 @@ public class Attack1 : MonoBehaviour {
 
     public GameObject projectile;
     private GameObject projectileClone;
-    public GameObject impact;
 
     public Vector2 spawnArea;
     public float spawnWidth;
@@ -44,6 +43,8 @@ public class Attack1 : MonoBehaviour {
         for (int i = 0; i < numberOfProjectiles; i++)
         {
             GameObject projectileClone = Instantiate(projectile, new Vector2(spawnArea.x + Random.Range(-spawnWidth, spawnWidth), spawnArea.y) , Quaternion.identity);
+            projectileClone.AddComponent<Rigidbody2D>().gravityScale = 1;
+            projectileClone.AddComponent<BulletScript>().baseSpeed = 0;
             yield return new WaitForSeconds(.2f);
             Destroy(projectileClone, 5f);
         }
@@ -56,6 +57,8 @@ public class Attack1 : MonoBehaviour {
         for (int i = 0; i < numberOfProjectiles; i++)
         {
             GameObject projectileClone = Instantiate(projectile, transform.position, Quaternion.Euler(0, 0, transform.rotation.z + bulletRotation));
+            projectileClone.AddComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+            projectileClone.AddComponent<BulletScript>().baseSpeed = 10;
             yield return new WaitForSeconds(.1f);
             bulletRotation += 10;
             Destroy(projectileClone, 5f);
@@ -69,6 +72,8 @@ public class Attack1 : MonoBehaviour {
         {
             float bulletRotation = Random.Range(0, 180);
             GameObject projectileClone = Instantiate(projectile, transform.position, Quaternion.Euler(0, 0, bulletRotation));
+            projectileClone.AddComponent<Rigidbody2D>().gravityScale = 5;
+            projectileClone.AddComponent<BulletScript>().baseSpeed = 10;
             yield return new WaitForSeconds(.1f);
         }
     }
@@ -77,8 +82,7 @@ public class Attack1 : MonoBehaviour {
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            GameObject impactClone = Instantiate(impact, projectileClone.transform.position, projectileClone.transform.rotation);
-            Destroy(impactClone, 1f);
+            //Collision met dingen
         }
     }
 }
