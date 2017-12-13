@@ -60,5 +60,12 @@ public class BulletScript : MonoBehaviour {
             Destroy(impactClone, 2f);
             Destroy(gameObject);
         }
+
+        if (gameObject.tag == "EnemyBullet" || collision.gameObject.CompareTag("Player"))
+        {
+            //GameObject impactClone = Instantiate(impact, transform.position, transform.rotation) as GameObject;
+            //Destroy(impactClone, 2f);
+            Destroy(gameObject);
+        }
     }
 }

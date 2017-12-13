@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4813895854591022}
   - component: {fileID: 198985485142036164}
   - component: {fileID: 199400605341828748}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ExtraGlow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,9 +40,9 @@ GameObject:
   - component: {fileID: 199182019473266344}
   - component: {fileID: 82712229104804162}
   - component: {fileID: 58950090621790250}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: BossProjectile
-  m_TagString: Untagged
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 4793943996902330}
   - component: {fileID: 198498422433427680}
   - component: {fileID: 199915449336952484}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SmokeTrail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4048066243943052}
   - component: {fileID: 108716220711555270}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 4084242571960698}
   - component: {fileID: 198950040047889986}
   - component: {fileID: 199536405741526842}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FireTrail
   m_TagString: Untagged
   m_Icon: {fileID: 0}

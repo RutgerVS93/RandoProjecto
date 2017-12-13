@@ -6,6 +6,8 @@ TagManager:
   tags:
   - Wall
   - Ground
+  - Bullet
+  - EnemyBullet
   layers:
   - Default
   - TransparentFX
@@ -15,9 +17,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - EnemyBullet
+  - Wall
+  - Beam
   - 
   - 
   - 

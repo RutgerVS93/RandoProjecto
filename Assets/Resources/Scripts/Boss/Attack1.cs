@@ -74,6 +74,7 @@ public class Attack1 : MonoBehaviour {
             GameObject projectileClone = Instantiate(projectile, transform.position, Quaternion.Euler(0, 0, bulletRotation));
             projectileClone.AddComponent<Rigidbody2D>().gravityScale = 5;
             projectileClone.AddComponent<BulletScript>().baseSpeed = 10;
+            //projectileClone.AddComponent<BulletScript>().impact = (GameObject)Resources.Load("Assets/Resources/Prefabs/Bullets/BossBullets/BossProjectileImpact");
             yield return new WaitForSeconds(.1f);
         }
     }
