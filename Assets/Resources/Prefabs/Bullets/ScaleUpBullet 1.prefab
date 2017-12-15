@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4791073698537598}
   - component: {fileID: 108144938406476982}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 114975074072758776}
   - component: {fileID: 50955354980257674}
   - component: {fileID: 61162690278797842}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: ScaleUpBullet 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -57,7 +57,7 @@ GameObject:
   - component: {fileID: 4872547240524320}
   - component: {fileID: 198395206636536380}
   - component: {fileID: 199181205293308614}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: ExtraGlow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ GameObject:
   - component: {fileID: 198223812811588070}
   - component: {fileID: 199264444711326330}
   - component: {fileID: 82376060061148326}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Shit
   m_TagString: Untagged
   m_Icon: {fileID: 0}

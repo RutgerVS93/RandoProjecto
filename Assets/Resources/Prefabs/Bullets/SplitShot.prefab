@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4125656666087504}
   - component: {fileID: 198845452981773464}
   - component: {fileID: 199761990050349856}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Glow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4443154544535376}
   - component: {fileID: 198064990001500282}
   - component: {fileID: 199141961508673364}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Object
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 50738719776345330}
   - component: {fileID: 61213021472355758}
   - component: {fileID: 114257380486793698}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SplitShot
   m_TagString: Untagged
   m_Icon: {fileID: 0}

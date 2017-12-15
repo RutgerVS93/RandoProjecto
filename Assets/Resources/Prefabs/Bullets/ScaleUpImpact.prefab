@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4845190143796792}
   - component: {fileID: 198602482265606420}
   - component: {fileID: 199721088350665390}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Smoke
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4152221981416402}
   - component: {fileID: 108186514820464012}
   - component: {fileID: 114838471693023282}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 4901407649317656}
   - component: {fileID: 198321963801739906}
   - component: {fileID: 199870466353885174}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Flicks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 198854117807572562}
   - component: {fileID: 199188638478768452}
   - component: {fileID: 82341758234568936}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: ScaleUpImpact
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 4865960882426130}
   - component: {fileID: 198876633277481258}
   - component: {fileID: 199151159040122992}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: BigGlow
   m_TagString: Untagged
   m_Icon: {fileID: 0}

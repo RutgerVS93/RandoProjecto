@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4438123741862228}
   - component: {fileID: 108866432259545004}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   - component: {fileID: 50675438127794376}
   - component: {fileID: 61532615945949256}
   - component: {fileID: 114793302563667424}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: RapidFire
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -267,8 +267,6 @@ MonoBehaviour:
   _speedUp: 0
   increaseSize: 0
   _increaseSize: 0
-  knockBack: 0
-  _knockBack: 5
 --- !u!198 &198168239921779360
 ParticleSystem:
   m_ObjectHideFlags: 1

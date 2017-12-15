@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4526200547768546}
   - component: {fileID: 198234636276851954}
   - component: {fileID: 199626614016934198}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: BigGlow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4055804919838446}
   - component: {fileID: 198769119171495054}
   - component: {fileID: 199793817619233020}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Linger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 4140025808416346}
   - component: {fileID: 108499945898811250}
   - component: {fileID: 114251461082649364}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 198091129640834324}
   - component: {fileID: 199416090490792108}
   - component: {fileID: 82582476399988884}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: RapidFireImpact
   m_TagString: Untagged
   m_Icon: {fileID: 0}

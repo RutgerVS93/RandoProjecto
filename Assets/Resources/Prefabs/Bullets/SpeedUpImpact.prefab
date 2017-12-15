@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4266121580073226}
   - component: {fileID: 108898377642074716}
   - component: {fileID: 114983038641955976}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -38,7 +38,7 @@ GameObject:
   - component: {fileID: 4432821332907278}
   - component: {fileID: 198639978080226044}
   - component: {fileID: 199554624353276916}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: BigGlow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -55,7 +55,7 @@ GameObject:
   - component: {fileID: 4287506596871894}
   - component: {fileID: 198650299222672076}
   - component: {fileID: 199479117198588390}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Flicks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -73,7 +73,7 @@ GameObject:
   - component: {fileID: 198953248307105396}
   - component: {fileID: 199110600535156220}
   - component: {fileID: 82985604000433662}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SpeedUpImpact
   m_TagString: Untagged
   m_Icon: {fileID: 0}

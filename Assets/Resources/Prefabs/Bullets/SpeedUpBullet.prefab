@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 50603520308324274}
   - component: {fileID: 114015084317212244}
   - component: {fileID: 61000650788268226}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: SpeedUpBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -41,7 +41,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4977686942369020}
   - component: {fileID: 108752550016428758}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Point light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -58,7 +58,7 @@ GameObject:
   - component: {fileID: 4694193170293088}
   - component: {fileID: 198350653650071114}
   - component: {fileID: 199286212351870940}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: ExtraGlow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
